@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="name">
+            <a href="">Portfolio</a>
+        </div>
+        <div class="links">
+            <a onclick="scrollHero()">KOTI</a>
+            <a onclick="scrollAbout()">TIETOA</a>
+            <a onclick="scrollPortfolio()">PORTFOLIO</a>
+            <button onclick="scrollContact()" id="contact">OTA YHTEYTTÄ</button>
+        </div>
+    </nav>
+    <div id="hero" class="hero">
+        <div class="herotext">
+            <h1>Eerik Ojala │ Portfolio</h1>
+            <p>Ohjelmistokehittäjä</p>
+        </div>
+    </div>
+    <article id="article">
+        <div id="about" class="about">
+            <div class="leftabout">
+                <div class="upper">
+                    <div class="image">
+                        <img height="90px" width="90px" src="user.png" alt="user picture">
+                    </div>
+                    <div class="info">
+                        <p>Nimi: Eerik Ojala</p>
+                        <p>Profiili: Ohjelmistokehittäjä</p>
+                        <p>Email: eerik.ojala@edu.tampere.fi</p>
+                        <p>Puh: 0409332035</p>
+                    </div>
+                </div>
+                <div class="osaaminen">
+                    <p>Osaaminen:</p>
+                    <p>HTML 85%</p>
+                    <div class="bar">
+                        <div class="progress1">
+
+                        </div>
+                    </div>
+                    <p>CSS3 70%</p>
+                    <div class="bar">
+                        <div class="progress2">
+                            
+                        </div>
+                    </div>
+                    <p>PHP 10%</p>
+                    <div class="bar">
+                        <div class="progress3">
+                            
+                        </div>
+                    </div>
+                    <p>JAVASCRIPT 40%</p>
+                    <div class="bar">
+                        <div class="progress4">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightabout">
+                <h1>Tietoa minusta:</h1>
+                <p>Terve, minun nimeni on Eerik Ojala ja olen ensimmäisen vuoden ohjelmistokehittäjä Tredussa. Olen 16-vuotias poika ja olen kiinnostunut koodamisesta. Kieliä joita osaan ovat HTML, CSS, Javascript ja hieman PHP:tä.</p>
+            </div>
+        </div>
+        <div id="portfolio" class="portfolio">
+            <div class="title">
+                <h1>Portfolio</h1>
+                <p>Täältä löydät minun projekteja.</p>
+            </div>
+            <div class="projects_container">
+                <div class="projects_top">
+                    <div class="project1" onclick="location.href='./maido/index.html';">
+                        <div class="project_picture1">
+
+                        </div>
+                        <div class="project_text">
+                            <p>Maido sivusto</p>
+                            <p>12.12.2023</p>
+                        </div>
+                    </div>
+                    <div class="project2" onclick="location.href='./nelilaskin/index.html';">
+                        <div class="project_picture2">
+
+                        </div>
+                        <div class="project_text">
+                            <p>HTML, CSS ja Javascript laskin</p>
+                            <p>12.12.2023</p>
+                        </div>
+                    </div>
+                    <div class="project3">
+                        <div class="project_picture3">
+
+                        </div>
+                        <div class="project_text">
+                            <p>Tulossa...</p>
+                            <p>12.12.2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects_bottom">
+                    <div class="project4">
+                        <div class="project_picture4">
+
+                        </div>
+                        <div class="project_text">
+                            <p>Tulossa...</p>
+                            <p>12.12.2023</p>
+                        </div>
+                    </div>
+                    <div class="project5">
+                        <div class="project_picture5">
+
+                        </div>
+                        <div class="project_text">
+                            <p>Tulossa...</p>
+                            <p>12.12.2023</p>
+                        </div>
+                    </div>
+                    <div class="project6">
+                        <div class="project_picture6">
+
+                        </div>
+                        <div class="project_text">
+                            <p>Tulossa...</p>
+                            <p>12.12.2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <div class="contact_container" id="contact_container">
+        <div class="full_container">
+            <div class="contact_left">
+                <form>
+                    <h1>Ota yhteyttä</h1>
+                    <p>Nimi(*)</p>
+                    <input type="text">
+                    <p>Sähköposti(*)</p>
+                    <input type="text">
+                    <p>Aihe</p>
+                    <input type="text">
+                    <p>Viesti</p>
+                    <textarea></textarea>
+                    <div class="send_button">
+                        <button>Lähetä</button>
+                    </div>
+                </form>
+            </div>
+            <div class="contact_right">
+                <h1>Yhteydenotto</h1>
+                <p>Ota yhteyttä minulle puhelimitse tai lähettämällä viestin vasemmalla olevasta lomakkesta!</p>
+                <div class="contact_links">
+                    <div class="contact_link">
+                        <img width="20px" height="20px" src="twitter-64.png" onclick="location.href='https://twitter.com'" alt="twitter logo">
+                    </div>
+                    <div class="contact_link">
+                        <img width="20px" height="20px" src="github-8-64.png" onclick="location.href='https://github.com'" alt="github logo">
+                    </div>
+                    <div class="contact_link">
+                        <img width="20px" height="20px" src="linkedin-64.png" onclick="location.href='https://linkedin.com'" alt="linkedin logo">
+                    </div>
+                </div>
+                <div class="contacts">
+                    <div class="contact_info">
+                        <img height="20px" src="maps.png" alt="">
+                        <p>Hepolamminkadun toimipiste - Tredu</p>
+                    </div>
+                    <div class="contact_info">
+                        <img height="20px" src="phone.png" alt="">
+                        <p>0409332035</p>
+                    </div>
+                    <div class="contact_info">
+                        <img height="20px" src="email.png" alt="">
+                        <p>eerik.ojala@edu.tampere.fi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerlinks">
+            <div class="footerlink" onclick="location.href='https://twitter.com'">
+                <img width="50px" height="50px" src="twitter-64.png" alt="twitter logo">
+            </div>
+            <div class="footerlink" onclick="location.href='https://github.com/eerikojala'">
+                <img width="50px" height="50px" src="github-8-64.png" alt="github logo">
+            </div>
+            <div class="footerlink" onclick="location.href='https://linkedin.com'">
+                <img width="50px" height="50px" src="linkedin-64.png" alt="linkedin logo">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2023 Eerik Ojala Tredu</p>
+            <p>© Designed by Eerik Ojala</p>
+        </div>
+    </footer>
+</body>
+</html>

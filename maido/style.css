@@ -1,0 +1,580 @@
+body {
+    margin: 0;
+    background-color: #252530;
+    font-family: sans-serif;
+    overflow-y: visible;
+    color: white;
+}
+
+.top_bar {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #262626;
+    height: 54px;
+    border: 1px solid #000000;
+    z-index: 1000000;
+}
+
+.logo {
+    margin-left: 8px;
+}
+
+.logo img {
+    height: 25px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 100px;
+}
+
+.headerlinks a {
+    font-family: monospace;
+    font-weight: bold;
+    background-color: white;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 4px 6px 4px 8px;
+    color: #252530;
+    border: solid 1px white;
+    transition: 0.1s;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    margin-right: 350px;
+}
+
+.heading img {
+    height: 40px;
+}
+
+.buy_button a {
+    display: flex;
+    font-size: 15px;
+    width: 85px;
+    height: 23px;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #82b440;
+    box-shadow: 0 2px 0 #6f9a37;
+    color: white;
+    text-decoration: none;
+}
+
+.buy_button a:hover {
+    background-color: rgb(128,172,60);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links img {
+    height: 20px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin-inline: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+}
+
+.big_image {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    transition: 0.3s;
+    border-radius: 15px;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('room.jpg');
+    background-position: center;
+    height: 450px;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.by {
+    font-size: 15px;
+    position: relative;
+    top: 260px;
+}
+
+#by2 {
+    font-size: 15px;
+    position: relative;
+    top: 100px;
+}
+
+#by3 {
+    font-size: 15px;
+    position: relative;
+    top: 220px;
+}
+
+.big_image p {
+    position: relative;
+    font-weight: 800;
+    margin-left: 40px;
+}
+
+.small_images {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.small_images p {
+    font-size: 25px;
+}
+
+.row-1, .row-2 {
+    display: flex;
+}
+
+.imagediv1 p, .imagediv2 p, .imagediv3 p, .imagediv4 p {
+    position: relative;
+    margin-left: 20px;
+    top: 70px;
+}
+
+.imagediv1, .imagediv2, .imagediv3, .imagediv4 {
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+    border-radius: 15px;
+    margin: 0 0 20px 20px;
+    height: 215px;
+    width: 430px;
+}
+
+.imagediv1 {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('room2.jpg');
+    background-position: center;
+    background-size: 280%;
+}
+
+.imagediv2 {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('room3.jpg');
+    background-position: center;
+    background-size: 280%;
+}
+
+.imagediv3 {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('room4.jpg');
+    background-position: center;
+    background-size: 280%;
+}
+
+.imagediv4 {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('room5.jpg');
+    background-position: center;
+    background-size: 280%;
+}
+
+.imagediv1:hover, .imagediv2:hover, .imagediv3:hover, .imagediv4:hover, .big_image:hover {
+    transform: translate(0, -3px);
+}
+
+.article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100%;
+    position: relative;
+}
+
+.wrap_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.articlephoto1, .articlephoto2, .articlephoto3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 25px 0 25px 0;
+    border-radius: 20px;
+    height: 550px;
+    width: 1300px;
+    transition: 0.5s;
+}
+
+.articlephoto1 {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('room6.jpg');
+    background-position: center;
+    background-size: 100%;
+}
+
+.articlephoto2 {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('room7.jpg');
+    background-position: center;
+    background-size: 100%;
+}
+
+.smaller_text {
+    position: relative;
+    font-size: 15px;
+    bottom: 30px;
+}
+
+.smaller_text2 {
+    position: relative;
+    font-size: 15px;
+    bottom: 20px;
+}
+
+.articlephoto3 {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('room8.jpg');
+    background-position: center;
+    background-size: 100%;
+}
+
+.articlephoto1:hover, .articlephoto2:hover, .articlephoto3:hover {
+    background-size: 102%;
+}
+
+.side_text {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.photolinks {
+    position: relative;
+    top: 30px;
+}
+
+.photolinks a {
+    font-family: monospace;
+    font-weight: bold;
+    margin: 7px 6px 0 0;
+    background-color: transparent;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 4px 6px 4px 8px;
+    color: white;
+    border: solid 1px white;
+    transition: 0.1s;
+}
+
+.photolinks a:hover {
+    background-color: white;
+    color: black;
+}
+
+.multiplephoto {
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.photo1, .photo2, .photo3, .photo4, .photo5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    margin-right: 20px;
+    border-radius: 20px;
+    height: 450px;
+    transition: 0.3s;
+}
+
+.photo1 {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('room9.jpg');
+    background-position: center;
+    background-size: 200%;
+}
+
+.photo2 {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('room10.jpg');
+    background-position: center;
+    background-size: 200%;
+}
+
+.photo3 {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('room11.jpg');
+    background-position: center;
+    background-size: 200%;
+}
+
+.photo4 {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('room12.jpg');
+    background-position: center;
+    background-size: 200%;
+}
+
+.photo5 {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('room13.jpg');
+    background-position: center;
+    background-size: 200%;
+}
+
+.photo1:hover, .photo2:hover, .photo3:hover, .photo4:hover, .photo5:hover {
+    background-size: 204%;
+}
+
+.photolinks2, .photolinks3 {
+    position: relative;
+}
+
+.photolinks2 a {
+    font-family: monospace;
+    font-weight: bold;
+    background-color: transparent;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 4px 6px 4px 8px;
+    color: white;
+    border: solid 1px white;
+    transition: 0.1s;
+}
+
+.photolinks2 a:hover {
+    background-color: white;
+    color: black;
+}
+
+#loadmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#loadmore button {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: monospace;
+    height: 100px;
+    width: 1000px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(54,54,67,255);
+    outline: none;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#loadmore button:hover {
+    color: #252530;
+    background-color: #FFB469;
+    transform: scale(102%);
+}
+
+#hiddenimage {
+    display: none;
+    position: relative;
+    top: -30px;
+}
+
+.hiddiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('room6.jpg');
+    background-position: center;
+    background-size: 100%;
+    flex-direction: column;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 550px;
+    width: 1300px;
+    transition: 0.5s;
+}
+
+.hiddiv a {
+    position: relative;
+    top: 50px;
+}
+
+.hiddiv:hover {
+    background-size: 102%;
+}
+
+.subscribe_container {
+    display: flex;
+    text-align: center;
+    margin: 150px 0 150px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe_text h1 {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.typewriter h1 {
+    font-size: 20px;
+    color: #fff;
+    overflow: hidden;
+    border-right: .15em solid rgb(255, 255, 255);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+      typing 4s steps(44, end) alternate infinite,
+      blink-caret .75s step-end infinite;
+      animation-delay: 2s;
+}
+
+@keyframes typing {
+    0% { width: 0}
+    25% { width: 0}
+    75% { width: 320px}
+    100% { width: 320px}
+}
+  
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 255, 255) }
+}
+
+.subscribe_input input {
+    margin-top: 40px;
+    font-weight: bold;
+    width: 500px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    background-color: transparent;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}
+
+.subscribe_input input::placeholder {
+    color: rgba(84,82,96,255);
+}
+
+.subscribe_input input:focus {
+    width: 600px;
+}
+
+#subscribe button {
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: monospace;
+    height: 80px;
+    width: 170px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(54,54,67,255);
+    outline: none;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#subscribe button:hover {
+    color: #252530;
+    background-color: #FFB469;
+    transform: scale(102%);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer_links a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.icons {
+    font-size: 0;
+    line-height: 0;
+}
+
+.icons img {
+    margin-inline: 10px;
+}
+
+.footer_left, .footer_right {
+    margin-inline: 250px;
+}
+
+.footer_left p {
+    font-size: 11.7px;
+    color: rgba(187,187,189,255);
+}
+
+.icons img:hover {
+    transform: scale(1.1);
+}
+
+.sidenav {
+    display: flex;
+    transform: rotate(180deg);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #252530;
+    overflow-x: hidden;
+    padding-top: 20px;
+    writing-mode: vertical-rl;
+    cursor: default; 
+}
+  
+.sidenav p {
+    font-weight: bold;
+    color: #c7c7c7;
+}
