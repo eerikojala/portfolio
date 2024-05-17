@@ -213,6 +213,14 @@ article {
     margin-left: 15px;
 }
 
+.project_picture3 {
+    background-image: url(reseptipankki.png);
+}
+
+.project_picture3:hover {
+    background-size: 105%;
+}
+
 footer {
     display: flex;
     flex-direction: column;
