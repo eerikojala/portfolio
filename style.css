@@ -52,7 +52,7 @@ nav {
 }
 
 .name a {
-    font-size: 25px;
+    font-size: 35px;
     color: white;
     text-decoration: none;
 }
@@ -94,12 +94,21 @@ article {
 }
 
 .image, .info {
+    font-size: 20px;
     margin-inline: 20px;
 }
 
 .leftabout, .rightabout {
     margin: 50px 0 50px 0;
     width: 500px;
+}
+
+.rightabout h1 {
+    font-size: 30px;
+}
+
+.rightabout p {
+    font-size: 20px;
 }
 
 .upper {
