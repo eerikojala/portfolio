@@ -128,19 +128,19 @@ article {
 }
 
 .progress1 {
-    width: 85%;
+    width: 65%;
 }
 
 .progress2 {
-    width: 70%;
+    width: 60%;
 }
 
 .progress3 {
-    width: 10%;
+    width: 20%;
 }
 
 .progress4 {
-    width: 40%;
+    width: 25%;
 }
 
 .osaaminen {
@@ -201,23 +201,15 @@ article {
     background-size: 105%;
 }
 
-.project_picture2 {
-    background-image: url(laskin.png);
-}
-
-.project_picture2:hover {
-    background-size: 125%;
-}
-
 .project_text {
     margin-left: 15px;
 }
 
-.project_picture3 {
+.project_picture2 {
     background-image: url(reseptipankki.png);
 }
 
-.project_picture3:hover {
+.project_picture2:hover {
     background-size: 105%;
 }
 
