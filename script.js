@@ -1,27 +1,6 @@
-function scrollHero() {
-    const element = document.getElementById("hero");
-    element.scrollIntoView({
-        behavior: "smooth",
-    });
-}
+hamburger = document.querySelector(".hamburger");
 
-function scrollAbout() {
-    const element = document.getElementById("about");
-    element.scrollIntoView({
-	    behavior: "smooth",
-    });
-}
-
-function scrollPortfolio() {
-    const element = document.getElementById("portfolio");
-    element.scrollIntoView({
-	    behavior: "smooth",
-    });
-}
-
-function scrollContact() {
-    const element = document.getElementById("contact_container");
-    element.scrollIntoView({
-	    behavior: "smooth",
-    });
+hamburger.onclick = function() {
+    navBar = document.querySelector(".nav-bar");
+    navBar.classList.toggle("active");
 }
