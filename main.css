@@ -358,7 +358,8 @@ footer {
 
 @media only screen and (max-width: 405px) {
     .about {
-        width: 40%;
+        width: 65%;
+        height: auto;
     }
 }
 
