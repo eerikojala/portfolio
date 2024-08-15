@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 html {
@@ -71,7 +72,7 @@ html {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./pictures/hero.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/pictures/hero.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -173,6 +174,8 @@ html {
     margin: 20px;
     cursor: pointer;
     transition: 0.5s;
+    text-decoration: none;
+    color: black;
 }
 
 .project:hover {
@@ -358,8 +361,7 @@ footer {
 
 @media only screen and (max-width: 405px) {
     .about {
-        width: 65%;
-        height: auto;
+        width: 40%;
     }
 }
 
