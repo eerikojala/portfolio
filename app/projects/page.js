@@ -40,6 +40,7 @@ export default function Projects() {
                 key={index}
                 href={project.link}
                 className="block bg-neutral-800 rounded-xl overflow-hidden transition hover:bg-neutral-700"
+                target="_blank"
               >
                 <div className="w-full aspect-[16/10] relative">
                   <Image

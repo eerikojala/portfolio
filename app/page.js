@@ -12,13 +12,13 @@ export default function Home() {
       </p>
       <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4">
         <a
-          href="/about"
+          href="/portfolio/about"
           className="px-6 py-3 bg-neutral-800 text-neutral-100 rounded-lg hover:bg-neutral-700 transition"
         >
           Learn More
         </a>
         <a
-          href="/contact"
+          href="/portfolio/contact"
           className="px-6 py-3 bg-neutral-800 text-neutral-100 rounded-lg hover:bg-neutral-700 transition"
         >
           Contact me
